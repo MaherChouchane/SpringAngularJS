@@ -1,0 +1,22 @@
+<div>
+	<h3>{{headingTitle}}</h3>
+	<div>
+		<table>
+			<thead>
+				<tr>
+					<th>Nom</th>
+					<th>Prenom</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+			<tbody ng-repeat="u in users">
+				<tr>
+					<td>{{u.nom}}</td>
+					<td>{{u.prenom}}</td>
+					<td>{{u.age}}</td>
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+</div>

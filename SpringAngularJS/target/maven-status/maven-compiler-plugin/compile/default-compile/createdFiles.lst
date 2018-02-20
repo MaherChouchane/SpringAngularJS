@@ -1,0 +1,3 @@
+com\springangularjs\exemple\config\WebConfig.class
+com\springangularjs\exemple\WebAppInitializer.class
+com\springangularjs\exemple\controller\MainController.class
